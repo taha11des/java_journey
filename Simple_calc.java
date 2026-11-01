@@ -11,6 +11,9 @@ import java.util.Scanner;
 public class Simple_calc {
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
+
+
+        \\ declaring the variables of the two numbers and the operation between them
         float fnum;
         float snum;
         int operation;
@@ -18,7 +21,7 @@ public class Simple_calc {
         
         
         
-        
+        \\getting the numbers from the user
         System.out.println("Enter the first number");
         fnum = sc.nextFloat();
         System.out.println("Enter the second number");
@@ -28,7 +31,7 @@ public class Simple_calc {
         
         
         
-        
+        \\the logic of the calculator 
         switch (operation) {
             case 1:
             answer = fnum * snum;
